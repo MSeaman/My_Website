@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hover-min.css">
+  <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src='app.js'></script>
+  <title>Matthew Seaman</title>
+</head>
+<body>
+  <div id='container'>
+    <a href="index.html">
+      <div id='header'>
+        <h1>Matthew Seaman</h1>
+        <h3>Web Developer - Video Game Enthusiast - Film Junkie</h2>
+      </div id='header'>
+    </a>
+    <div id='navbar'>
+      <ul>
+        <a href='projects.html'>
+          <li id='web-tab' class='hvr-back-pulse'>Projects</li>
+        </a>
+        <a href='skills.html'>
+          <li id='skills-tab' class='hvr-back-pulse'>Blog</li>
+        </a>
+        <a href='about.html'>
+          <li id='about-tab' class='hvr-back-pulse'>About</li>
+        </a>
+        <a href='resume.html'>
+          <li id='resume-tab' class='hvr-back-pulse'>Resume</li>
+        </a>
+        <a href='contact.html'>
+          <li id='contact-tab' class='hvr-back-pulse'>Contact</li>
+        </a>
+      </ul>
+    </div>
+    <div id="projects-box">
+      <ul>
+        <li class='project'>
+          <div class='img-project'>
+            <a href="https://fridgly.herokuapp.com/" target="_blank"><img src="assets/fridgly.png" border="0" alt=" photo Screen Shot 2015-02-10 at 2.18.39 PM_zpsulwynlvc.png" width="300" height="250"/></a>
+          </div>
+          <div class='desc-project'>
+            <h3>Fridgly</h3>
+            <p>
+              Fridgly is a kitchen ingredient management and recipe seach app. It allows the user to manage ingredients in the 'fridge' and 'pantry', and from these collections, select ingredients to search for recipes.
+            </p>
+            <p>
+              Fridgly uses the Yummly API to send recipes back to the user. The back-end is built on Node.js, with a PostgreSQL database. The front-end is built with Backbone.js.
+            </p>
+            <p>
+              <a href="https://fridgly.herokuapp.com/" target="_blank">[Fridgly]</a>
+              <a href="https://github.com/Mseaman/fridgly" target="_blank">[Code]</a>
+            </p>
+          </div>
+        </li>
+        <li class='project'>
+          <div class='img-project'>
+            <a href="https://ragnar-game.herokuapp.com/" target="_blank"><img src="assets/dwarf.jpg" border="0" alt=" photo Screen Shot 2015-02-10 at 2.18.39 PM_zpsulwynlvc.png" width="300" height="250"></a>
+          </div> 
+          <div class='desc-project'>
+            <h3>Ragnar</h3>
+            <p>
+              Ragnar is a sidescrolling hack and slash game where that puts the player in control of Ragner the dwarf. Ragnar must travel across the jungle, battle foes and kill the Boss at the end of the level to win the game.
+            </p>
+            <p>
+              Ragnar was built using the Phaser JavaScript library to give the game physics. The back-end is Node.js, with a PostgreSQL database which saves the player's high scores.
+            </p>
+            <p>
+              <a href="https://ragnar-game.herokuapp.com/" target="_blank">[Ragnar]</a>
+              <a href="https://github.com/Mseaman/ragnar" target="_blank">[Code]</a>
+            </p>
+          </div>
+        </li>
+        <li class='project'>
+          <div class='img-project'>
+            <a href="https://gamesage.herokuapp.com/" target="_blank"><img src="assets/gamesage.png" border="0" alt=" photo Screen Shot 2015-02-10 at 2.18.39 PM_zpsulwynlvc.png" width="300" height="250"></a>
+          </div> 
+          <div class='desc-project'>
+            <h3>GameSage</h3>
+            <p>
+              GameSage is a video game search app. It allows the user to log in, search for games, view a game's specific details(screenshots, game reviews, list of characters, synopsis). You can also save games to your favorites and rate those games.
+            </p>
+            <p>
+              GameSage was built entirely on Rails. It utilizes the GiantBomb API for the search results.
+            </p>
+            <p>
+              <a href="https://gamesage.herokuapp.com/" target="_blank">[GameSage]</a>
+              <a href="https://github.com/Mseaman/gamesage" target="_blank">[Code]</a>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <hr>
+    <footer>Contact | © 2015 Matthew Seaman</footer>
+  </div>
+</body>
+</html>
